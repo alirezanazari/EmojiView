@@ -6,7 +6,18 @@
  1 : Add below code to youre gradle
  
  ```
- implemention github.aa.qq
+ implemention github.aadependencies {
+	        implementation 'com.github.alirezanazari:EmojiView:0.0.1'
+	}
+ ```
+ 
+ ```
+ 	allprojects {
+		repositories {
+			...
+			maven { url 'https://www.jitpack.io' }
+		}
+	}
  ```
  
  2 : Add below code to your xml and customize it
