@@ -3,21 +3,21 @@
  
  # Usage 
  
- 1 : Add below code to youre gradle
+ 1 : Add below code to your gradle
  
  ```
- implemention github.aadependencies {
-	        implementation 'com.github.alirezanazari:EmojiView:0.0.1'
-	}
+dependencies {
+	 implementation 'com.github.alirezanazari:EmojiView:0.0.1'
+}
  ```
  
  ```
- 	allprojects {
-		repositories {
-			...
-			maven { url 'https://www.jitpack.io' }
-		}
+allprojects {
+	repositories {
+		...
+		maven { url 'https://www.jitpack.io' }
 	}
+}
  ```
  
  2 : Add below code to your xml and customize it
@@ -28,7 +28,7 @@
         android:id="@+id/em1"
         android:layout_width="250dp"
         android:layout_height="250dp"
-        app:ev_emojiState="HAPPY"
+        app:ev_emojiState="HAPPY" 
         app:ev_faceColor="@color/face_color"
         app:ev_eyesColor="@color/black"
         app:ev_mouthColor="@color/black"
