@@ -1,5 +1,5 @@
 # EmojiView
- Create Emoji with 3 mode (happy , normal , sad)
+ My first custom view that create Emoji with 3 mode (happy , normal , sad)
  
  # Usage 
  
