@@ -7,7 +7,7 @@
  
  ```
 dependencies {
-	 implementation 'com.github.alirezanazari:EmojiView:0.0.1'
+    implementation 'com.github.alirezanazari.EmojiView:1.0.1'
 }
  ```
  
