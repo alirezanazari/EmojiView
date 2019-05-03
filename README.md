@@ -24,7 +24,7 @@ allprojects {
  
  ```xml
 
-    <iran.alirezanazari.emojicustomview.view.EmojiView
+    <iran.alirezanazari.emojiview.EmojiView
         android:id="@+id/em1"
         android:layout_width="250dp"
         android:layout_height="250dp"
