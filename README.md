@@ -29,5 +29,5 @@
 # Screen Shot
 
 <p align="center">
-<img src="Screen Shot 2019-05-03 at 9.11.27 PM.png"/>  
+<img src="Screen Shot 2019-05-03 at 9.17.21 PM.png"/>  
 </p>
