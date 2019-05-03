@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="EmojiView">
+
+        <attr name="ev_faceColor" format="color"/>
+        <attr name="ev_mouthColor" format="color"/>
+        <attr name="ev_eyesColor" format="color"/>
+        <attr name="ev_borderColor" format="color"/>
+        <attr name="ev_borderWidth" format="float"/>
+        <attr name="ev_emojiState" format="enum">
+            <enum name="HAPPY" value="0"/>
+            <enum name="NORMAL" value="1"/>
+            <enum name="SAD" value="2"/>
+        </attr>
+
+    </declare-styleable>
+
+</resources>
