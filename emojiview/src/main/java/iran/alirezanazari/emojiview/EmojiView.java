@@ -1,4 +1,4 @@
-package iran.alirezanazari.emojicustomview.view;
+package iran.alirezanazari.emojiview;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -9,10 +9,6 @@ import android.graphics.Path;
 import android.graphics.RectF;
 import android.util.AttributeSet;
 import android.view.View;
-
-import java.security.PublicKey;
-
-import iran.alirezanazari.emojicustomview.R;
 
 public class EmojiView extends View {
 
@@ -31,7 +27,7 @@ public class EmojiView extends View {
         super(context);
     }
 
-    public EmojiView(Context context ,  AttributeSet attrs) {
+    public EmojiView(Context context , AttributeSet attrs) {
         super(context , attrs);
 
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.EmojiView);
